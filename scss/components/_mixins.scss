@@ -1,0 +1,12 @@
+@use "../custom" as *;
+@mixin gradient {
+  background: linear-gradient(
+    to left,
+    #52c234 0.9%,
+    #10c29e 100%,
+    #ffffff 100%
+  );
+}
+@mixin gradient1 {
+  background: linear-gradient(to top left, #333333 3.9%, #dd1818 100%,#ADD100 40%);
+}

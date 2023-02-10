@@ -1,0 +1,46 @@
+@use "../custom" as *;
+@use "../components/mixins" as *;
+.btn-G {
+    @include media-breakpoint-down(sm){
+        display: none;
+    }
+  @include gradient1;
+  position: relative;
+  padding: 0.9375rem 2.375rem 0.9375rem 1.25rem;
+  color: white;
+  text-decoration: none;
+  border: 0.1rem solid rgba(white, 0.2);
+  font-family: "Lucida Console", "Courier New", monospace;
+
+  span {
+    position: absolute;
+    width: 2.5rem;
+    height: 2.5rem;
+    // background: linear-gradient(to right,#2c5c1f 0.9%,#10c29e 100%,#FFFFFF 100%);
+    top: 50%;
+    right: 5px;
+    transform: translateY(-50%);
+    -webkit-transform: translateY(-50%);
+    -moz-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    -o-transform: translateY(-50%);
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+  }
+  i {
+    font-size: 1rem;
+    line-height: 2.5rem;
+  }
+  &:hover {
+    background: linear-gradient(
+      to left top,
+      #52c234 39.9%,
+      #10c29e 100%,
+      #ffffff 50%
+    );
+  }
+}
+

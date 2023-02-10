@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title class="justify-content-end pills">Portfolio</title>
+    <link rel="stylesheet" href="assest/css/style.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800;900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="shortcut icon"
+      href="./assest/images/LogoM.png"
+      type="image/x-icon"
+    />
+    <link
+      rel="shortcut icon"
+      href="./assest/images/arts/intro.png"
+      type="image/x-icon"
+    />
+    <link rel="stylesheet" href="assest/css/fontawsome.css" />
+    <style>
+      .gd {
+        background: linear-gradient(
+          to left,
+          #52c234 0.9%,
+          #10c29e 100%,
+          #ffffff 100%
+        );
+      }
+    </style>
+  </head>
+  <body>
+    <!--Navbar starts here-->
+    <nav class="navbar navbar-expand-lg navbar-dark menu shadow-lg fixed-top">
+      <div class="container">
+        <a class="navbar-brand" href="./index.html"
+          ><img
+            src="./assest/images/LogoM.png"
+            width="88px"
+            height="53px"
+            alt="logo"
+        /></a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div
+          class="collapse navbar-collapse justify-content-end"
+          id="navbarSupportedContent"
+        >
+          <ul class="navbar-nav text-light">
+            <li class="nav-item">
+              <a class="nav-link" aria-current="page" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#services">Service</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Testimonials</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#Contacts">Contact</a>
+            </li>
+          </ul>
+          <button type="button" class="rounded-pill btn btn-G btn-sm">
+            <span>
+              <i class="fa fa-download"></i>
+            </span>
+            Resume
+          </button>
+        </div>
+      </div>
+    </nav>
+    <!-- intro_section -->
+    <section>
+      <div id="home" class="intro-section">
+        <div class="container">
+          <div class="row align-items-center text-white">
+            <!-- content for intro -->
+            <div class="col-md-6 intro text-start">
+              <h1 class="display-2">
+                <span class="display-2--intro">Hey'Iam Sridhar</span>
+                <span class="display-2--description lh-base"
+                  >Full stack Developer. Design, code and debug
+                  applications</span
+                >
+              </h1>
+              <button
+                type="button"
+                class="rounded-pill p-6 mb-5 bg-body btn btn-G btn-sm"
+              >
+                <span>
+                  <i class="fas fa-arrow-right"></i>
+                </span>
+                Keep in Touch
+              </button>
+            </div>
+            <!-- content for intro_image -->
+            <div class="col-md-6 intros text-end">
+              <div class="video-box">
+                <img
+                  src="/assest/images/arts/intro.png"
+                  alt="intro"
+                  class="img-fluid"
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!---Tech section--->
+    <svg
+      id="wave"
+      style="transform: rotate(180deg); transition: 0.3s"
+      viewBox="0 0 1440 370"
+      version="1.1"
+      xmlns="http://www.w3.org/2000/svg"
+    >
+      <defs>
+        <linearGradient id="sw-gradient-0" x1="0" x2="0" y1="1" y2="0">
+          <stop stop-color="rgba(16, 194, 158, 1)" offset="0%"></stop>
+          <stop stop-color="rgba(82, 194, 52, 1)" offset="100%"></stop>
+        </linearGradient>
+      </defs>
+      <path
+        style="transform: translate(0, 0px); opacity: 1"
+        fill="url(#sw-gradient-0)"
+        d="M0,37L18.5,55.5C36.9,74,74,111,111,129.5C147.7,148,185,148,222,129.5C258.5,111,295,74,332,67.8C369.2,62,406,86,443,98.7C480,111,517,111,554,92.5C590.8,74,628,37,665,43.2C701.5,49,738,99,775,104.8C812.3,111,849,74,886,61.7C923.1,49,960,62,997,61.7C1033.8,62,1071,49,1108,55.5C1144.6,62,1182,86,1218,98.7C1255.4,111,1292,111,1329,104.8C1366.2,99,1403,86,1440,74C1476.9,62,1514,49,1551,43.2C1587.7,37,1625,37,1662,55.5C1698.5,74,1735,111,1772,104.8C1809.2,99,1846,49,1883,55.5C1920,62,1957,123,1994,148C2030.8,173,2068,160,2105,148C2141.5,136,2178,123,2215,98.7C2252.3,74,2289,37,2326,49.3C2363.1,62,2400,123,2437,172.7C2473.8,222,2511,259,2548,277.5C2584.6,296,2622,296,2640,296L2658.5,296L2658.5,370L2640,370C2621.5,370,2585,370,2548,370C2510.8,370,2474,370,2437,370C2400,370,2363,370,2326,370C2289.2,370,2252,370,2215,370C2178.5,370,2142,370,2105,370C2067.7,370,2031,370,1994,370C1956.9,370,1920,370,1883,370C1846.2,370,1809,370,1772,370C1735.4,370,1698,370,1662,370C1624.6,370,1588,370,1551,370C1513.8,370,1477,370,1440,370C1403.1,370,1366,370,1329,370C1292.3,370,1255,370,1218,370C1181.5,370,1145,370,1108,370C1070.8,370,1034,370,997,370C960,370,923,370,886,370C849.2,370,812,370,775,370C738.5,370,702,370,665,370C627.7,370,591,370,554,370C516.9,370,480,370,443,370C406.2,370,369,370,332,370C295.4,370,258,370,222,370C184.6,370,148,370,111,370C73.8,370,37,370,18,370L0,370Z"
+      ></path>
+    </svg>
+    <!----Servies------->
+    <section id="services" class="our-services">
+      <div class="container">
+        <div class="row text-center">
+          <h1 class="display-3 fw-bold">Services</h1>
+          <p class="h1 m-1">Front-Development</p>
+          <p class="h2">Back-End Development</p>
+          <p class="h3">Test Case</p>
+          <div class="heading-line mb-5"></div>
+        </div>
+      </div>
+    </section>
+    <svg
+      id="wave"
+      style="transform: rotate(0deg); transition: 0.3s"
+      viewBox="0 0 1440 370"
+      version="1.1"
+      xmlns="http://www.w3.org/2000/svg"
+    >
+      <defs>
+        <linearGradient id="sw-gradient-0" x1="0" x2="0" y1="1" y2="0">
+          <stop stop-color="rgba(16, 194, 158, 1)" offset="0%"></stop>
+          <stop stop-color="rgba(82, 194, 52, 1)" offset="100%"></stop>
+        </linearGradient>
+      </defs>
+      <path
+        style="transform: translate(0, 0px); opacity: 1"
+        fill="url(#sw-gradient-0)"
+        d="M0,111L40,123.3C80,136,160,160,240,197.3C320,234,400,284,480,283.7C560,284,640,234,720,197.3C800,160,880,136,960,160.3C1040,185,1120,259,1200,271.3C1280,284,1360,234,1440,215.8C1520,197,1600,210,1680,203.5C1760,197,1840,173,1920,160.3C2000,148,2080,148,2160,154.2C2240,160,2320,173,2400,197.3C2480,222,2560,259,2640,228.2C2720,197,2800,99,2880,80.2C2960,62,3040,123,3120,148C3200,173,3280,160,3360,160.3C3440,160,3520,173,3600,166.5C3680,160,3760,136,3840,129.5C3920,123,4000,136,4080,160.3C4160,185,4240,222,4320,252.8C4400,284,4480,308,4560,296C4640,284,4720,234,4800,191.2C4880,148,4960,111,5040,123.3C5120,136,5200,197,5280,222C5360,247,5440,234,5520,215.8C5600,197,5680,173,5720,160.3L5760,148L5760,370L5720,370C5680,370,5600,370,5520,370C5440,370,5360,370,5280,370C5200,370,5120,370,5040,370C4960,370,4880,370,4800,370C4720,370,4640,370,4560,370C4480,370,4400,370,4320,370C4240,370,4160,370,4080,370C4000,370,3920,370,3840,370C3760,370,3680,370,3600,370C3520,370,3440,370,3360,370C3280,370,3200,370,3120,370C3040,370,2960,370,2880,370C2800,370,2720,370,2640,370C2560,370,2480,370,2400,370C2320,370,2240,370,2160,370C2080,370,2000,370,1920,370C1840,370,1760,370,1680,370C1600,370,1520,370,1440,370C1360,370,1280,370,1200,370C1120,370,1040,370,960,370C880,370,800,370,720,370C640,370,560,370,480,370C400,370,320,370,240,370C160,370,80,370,40,370L0,370Z"
+      ></path>
+    </svg>
+    <section id="#Contacts" class="gd">
+      <div class="container">
+        <div class="row text-center">
+          <p class="h1 m-5 text-white">Contact Us</p>
+        </div>
+      </div>
+    </section>
+    <script src="assest/js/bootstrap.bundle.js"></script>
+  </body>
+</html>
